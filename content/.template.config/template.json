@@ -3,7 +3,7 @@
   "author": "Ashok",
   "classifications": [ "Blazor Web Assembly", "WASM" ],
   "identity": "KeyStone.Web",
-  "name": "Blazor web assembly boiler-plate",
+  "name": "KeyStone.Web: Blazor WASM Template",
   "shortName": "keystone-webassembly",
   "sourceName": "KeyStone.Web",
   "tags": {
