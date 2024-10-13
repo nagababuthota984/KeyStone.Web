@@ -50,7 +50,8 @@ dotnet new uninstall ./
 ```
 
 
-#### Project Structure
+## Project Structure
+
 When you create a project using the KeyStone.Web template, the structure will look like this:
 
 **wwwroot/**: Contains static files like CSS, JavaScript, and assets.
