@@ -1,0 +1,13 @@
+﻿{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Ashok",
+  "classifications": [ "Blazor Web Assembly", "WASM" ],
+  "identity": "KeyStone.Web",
+  "name": "Blazor web assembly boiler-plate",
+  "shortName": "keystone-webassembly",
+  "sourceName": "KeyStone.Web",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }
+}
