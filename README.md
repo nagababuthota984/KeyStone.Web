@@ -82,6 +82,7 @@ YourProjectName/
 
 - **`Middlewares/`**:  
   This folder is used to manage custom middleware components for handling specific HTTP requests or other middleware pipeline functions in the Blazor WebAssembly app.
+
   It includes two files `AuthInterceptor` and `HttpClientResponseInterceptor` make sure to check these files are needed for your use case.
 
 - **`StateFactory/`**:  
