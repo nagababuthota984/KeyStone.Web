@@ -52,15 +52,44 @@ dotnet new uninstall ./
 
 ## Project Structure
 
-When you create a project using the KeyStone.Web template, the structure will look like this:
+When you create a project using the **KeyStone.Web** template, the structure will look like this:
 
-**wwwroot/**: Contains static files like CSS, JavaScript, and assets.
+```
+YourProjectName/
+├── wwwroot/
+├── Pages/
+├── Shared/
+├── Middlewares/
+├── StateFactory/
+├── Program.cs
+└── App.razor
+```
+### Folder and File Overview
 
-**Pages/**: Contains main page components such as Index.razor, Counter.razor, etc.
+- **`wwwroot/`**:  
+  This folder contains static files like CSS, JavaScript, and other assets required by the Blazor WebAssembly application.
 
-**Shared/**: Contains shared components and layouts used across the app.
+- **`Pages/`**:  
+  This folder holds the main page components of the Blazor app, such as:
+  - **`Index.razor`**: The default landing page of the app.
+  - **`Counter.razor`**: A sample page demonstrating simple Blazor features.
+ 
+- **`Layout/`**:  
+  The layouts used across the application are located in this folder.
 
-**Program.cs**: Sets up services and configurations for the Blazor WebAssembly app.
+- **`Shared/`**:  
+  The shared components that are used across different parts of the application are located in this folder.
 
-**App.razor**: Defines the root component of the application.
+- **`Middlewares/`**:  
+  This folder is used to manage custom middleware components for handling specific HTTP requests or other middleware pipeline functions in the Blazor WebAssembly app.
+  It includes two files `AuthInterceptor` and `HttpClientResponseInterceptor` make sure to check these files are needed for your use case.
+
+- **`StateFactory/`**:  
+  This folder contains the classes or services responsible for managing the state of the application, such as authentication state management and local storage services.
+
+- **`Program.cs`**:  
+  This file sets up services, configurations, and entry points for the Blazor WebAssembly app. It initializes the WebAssembly host.
+
+- **`App.razor`**:  
+  This file defines the root component of the application. It manages routing and renders the page layout.
 
