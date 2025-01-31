@@ -26,7 +26,7 @@ namespace KeyStone.Web.Styles
 
                 Typography = new Typography
                 {
-                    Default = new Default
+                    Default = new DefaultTypography()
                     {
                         FontFamily = ["Inter", "Helvetica", "Arial", "sans-serif"],
                     }

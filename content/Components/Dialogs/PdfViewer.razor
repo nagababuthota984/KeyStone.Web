@@ -35,7 +35,7 @@
 
     private string _pdfAsBase64 = string.Empty;
 
-    [CascadingParameter] MudDialogInstance MudDialog { get; set; }
+    [CascadingParameter] IMudDialogInstance MudDialog { get; set; }
 
     void Submit() => MudDialog.Close(DialogResult.Ok(true));
     void Close() => MudDialog.Cancel();
